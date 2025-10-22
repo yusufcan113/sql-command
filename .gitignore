@@ -1,0 +1,49 @@
+# IDE ve Editor dosyaları
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SQL veritabanı dosyaları
+*.mdf
+*.ldf
+*.ndf
+
+# Veritabanı yedek dosyaları
+*.bak
+*.dbf
+*.sql.gz
+*.dump
+
+# Ortam değişkenleri ve hassas bilgiler
+.env
+*.config
+credentials.json
+
+# Log dosyaları
+*.log
+logs/
+
+# Geçici dosyalar
+temp/
+tmp/
+*.tmp
+
+# Windows özel dosyaları
+Thumbs.db
+Desktop.ini
+
+# macOS özel dosyaları
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node modülleri (eğer Node.js kullanılıyorsa)
+node_modules/
+
+# Derleme çıktıları
+bin/
+obj/
+dist/
+build/
